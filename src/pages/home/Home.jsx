@@ -40,12 +40,12 @@ const Home = () => {
             <span>up from last month</span>
           </div>
           <div className="stats-box">
-            <h4>Design</h4>
+            <h4>Testing</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
           <div className="stats-box">
-            <h4>Programming</h4>
+            <h4>AI Developing</h4>
             <p>$7,434.14</p>
             <span>up from last month</span>
           </div>
