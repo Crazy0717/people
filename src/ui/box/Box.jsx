@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom"
 import JobsIcons from "../../Icons"
 import "./Box.scss"
 
 const Box = ({imageSrc}) => {
   return (
     <div className="box">
+      <Link to={"https://www.youtube.com/watch?v=FCj5ZM1fRm0"} target="_blank">
       <div className="box__top">
         <img src={imageSrc} alt="" />
       </div>
@@ -22,7 +24,10 @@ const Box = ({imageSrc}) => {
           </div>
         </div>
       </div>
+      </Link>
+
     </div>
+    
   )
 }
 
