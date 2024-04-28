@@ -1,11 +1,11 @@
 import JobsIcons from "../../Icons"
 import "./Box.scss"
 
-const Box = () => {
+const Box = ({imageSrc}) => {
   return (
     <div className="box">
       <div className="box__top">
-        <img src="./images/Frame.png" alt="" />
+        <img src={imageSrc} alt="" />
       </div>
       <div className="box__main">
         <div className="main__name">

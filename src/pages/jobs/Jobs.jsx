@@ -56,15 +56,15 @@ const Jobs = () => {
       </nav>
       <main>
         <div className="jobs__vacancies">
-          <Box />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
-          <Box />
+          <Box imageSrc={"./images/Frame.png"} />
+          <Box imageSrc={"./images/Frame (2).png"} />
+          <Box imageSrc={"./images/Frame (3).png"} />
+          <Box imageSrc={"./images/Frame (4).png"} />
+          <Box imageSrc={"./images/Frame (3).png"} />
+          <Box imageSrc={"./images/Frame (4).png"} />
+          <Box imageSrc={"./images/Frame.png"} />
+          <Box imageSrc={"./images/Frame (3).png"} />
+          <Box imageSrc={"./images/Frame (4).png"} />
         </div>
       </main>
     </section>
